@@ -19,16 +19,16 @@
 </head>
 
 <body>
-    <nav>
 
-    </nav>
 
     <main>
+        <nav class="navbar">
+        </nav>
 
     </main>
-<footer>
-    <h2>Minden jog fenttartva! &copy; Gáz Plusz Gáz Films kft 2023</h2>
-</footer>
+    <footer>
+        <p>Minden jog fenttartva! &copy; Gáz Plusz Gáz Films kft 2023</p>
+    </footer>
 </body>
 
 </html>

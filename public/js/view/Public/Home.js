@@ -1,20 +1,37 @@
-class Home{
-    constructor(szuloElem){
+class Home {
+    constructor(szuloElem) {
         szuloElem.append(`
-        <img src="" alt="">
-        <div id="tervezes">
-            <h3>Tervezés</h3>
+        
+        
+        <div class="image-container">
+            <div class="highlight">
+                <img src="./image/IMG_7374.jpg" alt="Kép">
+            </div>
+            <div class="image-text">
+                <h1 style="font-size:50px">Gáz plusz Gáz films Kft</h1>
+                <button>Contact us!</button>
+            </div>
         </div>
-        <div id="gyartas">
+        
+        <div class="row">
+        <div class="div-container">
+                <h3>Tervezés</h3>
+            </div>
+            <div class="div-container">
             <h3>Gyártás</h3>
-        </div>
-        <div id="epites">
+            </div>
+            <div class="div-container">
             <h3>Építés</h3>
-        </div>
-        <div id="bontas">
+            </div>
+            <div class="div-container">
             <h3>Bontás</h3>
-        </div>
-`)
-    }
+            </div>
+            </div>
+`);
+}
 }
 export default Home;
+
+            {/* <div class="image-container">
+            <img src="./image/IMG_7374.jpg" alt="Kép">
+          </div> */}
